@@ -145,11 +145,16 @@ Performed statistical analysis including:
 
 The analysis identified several important trends:
 
-* Longer waiting times were associated with increased appointment no-shows.
-* Attendance patterns varied across appointment weekdays.
-* Certain age groups exhibited higher no-show rates than others.
-* SMS reminders alone did not completely eliminate missed appointments.
-* Patient demographics and scheduling characteristics jointly influenced attendance behavior.
+* Cleaned and transformed the dataset through feature engineering, creating variables such as **Waiting Time, Waiting Groups, Age Groups, Chronic Disease Count,** and **Health Risk Score**.
+* Most patients **attended** their scheduled appointments, though a notable proportion were **no-shows**.
+* **Waiting time** was the strongest predictor of missed appointments, with longer waiting periods associated with higher no-show rates.
+* Appointment attendance varied across **age groups**, indicating age influences patient attendance behavior.
+* Although **female patients** accounted for most appointments, **gender had minimal impact** on appointment attendance.
+* **Hypertension, diabetes,** and other chronic conditions showed **weak associations** with no-show status.
+* Correlation analysis revealed that most variables had **weak linear relationships** with appointment outcomes, suggesting no-shows result from **multiple interacting factors**.
+* The analysis identified **waiting time** as the most practically significant factor for predicting appointment attendance.
+* Reducing appointment delays and improving **patient reminder and engagement strategies** could increase attendance rates and enhance **hospital resource utilization**.
+
 
 ---
 
@@ -162,6 +167,9 @@ Based on the analysis, healthcare providers should consider:
 * Prioritizing high-risk patients for follow-up communication.
 * Optimizing appointment scheduling for days with historically lower attendance.
 * Developing predictive models to identify patients at high risk of missing appointments.
+* ### **Key Conclusions**
+
+
 
 
 ---
